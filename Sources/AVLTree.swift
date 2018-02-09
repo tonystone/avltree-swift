@@ -48,7 +48,6 @@ internal class AVLTree<ValueType: Comparable>: ExpressibleByArrayLiteral {
         for value in values {
             self.insert(value: value)
         }
-        print(self)
     }
 
     ///
